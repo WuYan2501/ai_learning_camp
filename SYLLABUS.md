@@ -1,14 +1,41 @@
-# 🧠 AI 系统知识库（Knowledge Base）
+# 🗺️ AI工程地图
 
-> **定位**：系统性 AI 知识图谱索引，每个知识点带结构化注释，支持快速理解和文章扩展
+> **定位**：一份持续更新的 AI 工程地图，覆盖基础认知、模型原理、RAG、Agent、MCP、工程落地、实操技能与面试系统整理
 >
-> **原则**：紧跟前沿 × 覆盖基础 × 面试高频 × 知识点带注释不展开
+> **适合谁**：想系统学 AI 的初学者、想转型 AI 的程序员 / 产品 / 运营，以及希望把 AI 变成效率和收入的人
 >
-> **使用方式**：SYLLABUS.md 只做导航，详细内容在 `modules/` 目录下各模块文件中
+> **你能在这里得到什么**：不是零散资料，而是一条从“看懂 AI”到“真正用上 AI”的路线图
 >
-> **更新时间**：2026-03
+> **使用方式**：本页只做总导航，详细内容在 `modules/` 目录；如果你是从知乎来的，建议先看下方「快速开始」和「热门主题入口」
+>
+> **更新时间**：2026-04
 
 ---
+
+## 🚀 快速开始
+
+### 如果你是第一次来
+
+- **想先建立 AI 整体框架**：从 [01_foundations.md](./modules/01_foundations.md) → [02_models.md](./modules/02_models.md) → [03_applications.md](./modules/03_applications.md) 开始
+- **想直接看热门方向**：先看 [02_rag.md](./modules/03_applications/02_rag.md)、[03_agent_core.md](./modules/03_applications/03_agent_core.md)、[08_mcp.md](./modules/03_applications/08_mcp.md)
+- **想补工程落地能力**：先看 [04_engineering.md](./modules/04_engineering.md) 和 [09_skills.md](./modules/09_skills.md)
+- **想准备面试 / 查漏补缺**：直接看 [06_interview.md](./modules/06_interview.md)
+
+## 🎯 这份地图解决什么问题
+
+- **内容太碎**：把热点、原理、实操和工程串成一条完整路径
+- **只懂概念不会落地**：从 RAG / Agent / MCP 一直延伸到部署、评估、成本和可靠性
+- **收藏很多却不知道先看什么**：每个模块都按主题归档，可以按目标快速跳转
+
+## 🔥 热门主题入口
+
+- **RAG**：[02_rag.md](./modules/03_applications/02_rag.md)
+- **Agent 核心**：[03_agent_core.md](./modules/03_applications/03_agent_core.md)
+- **Agent 应用**：[04_agent_applications.md](./modules/03_applications/04_agent_applications.md)
+- **MCP**：[08_mcp.md](./modules/03_applications/08_mcp.md)
+- **工程落地**：[04_engineering.md](./modules/04_engineering.md)
+- **实操技能**：[09_skills.md](./modules/09_skills.md)
+- **高频面试**：[06_interview.md](./modules/06_interview.md)
 
 ## 📖 标记体系
 
@@ -80,6 +107,31 @@
 | 文章标题 | 对应知识点 | 模块 |
 |----------|-----------|------|
 | 《Transformer为何选择LayerNorm？》 | LayerNorm vs BatchNorm（#10） | ①基础层 / ⑥面试区 |
+
+---
+
+## 🌱 如果你是从知乎来的
+
+很多朋友会私信我要资料，所以我把平时学习和整理 AI 的过程，尽量做成一张公开、持续更新、便于查找的知识地图。
+
+你可以把这里当成一个长期资料入口：
+
+- **想系统学**：按模块顺序往下看
+- **想看热门方向**：直接进入 RAG / Agent / MCP / 工程落地
+- **想面试复习**：直接看面试区
+- **想做实操**：优先看实操技能与工程模块
+
+如果这份地图对你有帮助，也欢迎把它转给同样在学 AI、做 AI、或者想靠 AI 提效的朋友。
+
+## 💡 这份地图后续会持续补什么
+
+我会围绕下面几个方向持续补内容：
+
+- **热点拆解**：一个项目为什么火，它真正重要的点是什么
+- **原理白话**：把复杂概念讲成人能听懂的话
+- **工程落地**：部署、成本、稳定性、评估和安全
+- **实操教程**：从入门到上手的步骤、清单和避坑记录
+- **变现思路**：AI 如何真正变成效率、能力，甚至收入来源
 
 ---
 
