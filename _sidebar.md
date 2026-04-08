@@ -1,0 +1,29 @@
+* **课程大纲**
+  * [📋 总大纲](SYLLABUS.md)
+
+* **学习模块**
+  * [01 基础知识](modules/01_foundations.md)
+  * [02 模型原理](modules/02_models.md)
+  * [03 应用实践](modules/03_applications.md)
+    * [Prompt Engineering](modules/03_applications/01_prompt_engineering.md)
+    * [RAG](modules/03_applications/02_rag.md)
+    * [Agent 核心](modules/03_applications/03_agent_core.md)
+    * [Agent 应用](modules/03_applications/04_agent_applications.md)
+    * [Agent 面试](modules/03_applications/05_agent_interview.md)
+    * [Agent 前沿](modules/03_applications/06_agent_frontier.md)
+    * [Agent 大纲](modules/03_applications/07_agent_syllabus.md)
+    * [MCP](modules/03_applications/08_mcp.md)
+    * [多模态](modules/03_applications/09_multimodal.md)
+  * [04 工程实践](modules/04_engineering.md)
+  * [05 前沿动态](modules/05_frontier.md)
+  * [06 面试准备](modules/06_interview.md)
+  * [07 工具使用](modules/07_tools.md)
+  * [08 论文精读](modules/08_papers.md)
+  * [09 技能训练](modules/09_skills.md)
+
+* **技术文章**
+  * [Function Calling vs ReAct](article/Function%20Calling%20和%20ReAct%20到底啥区别？.md)
+  * [Plan-and-Execute 实战](article/一文弄懂%20Plan-and-Execute%20带实战案例.md)
+  * [Agent 评估体系](article/如何构建一套完整的Agent评估体系？.md)
+  * [Pre-Norm vs Post-Norm](article/用点奶茶来讲清Pre-Norm%20训练更稳定，但%20Post-Norm%20理论上上限更高这个矛盾.md)
+  * [SFT Qwen on Mac](article/sft_qwen3.5_on_mac.md)
