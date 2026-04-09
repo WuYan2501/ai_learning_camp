@@ -137,11 +137,43 @@
       background: #e0e0e0;
     }
 
+    /* 访客统计样式 */
+    .visitor-stats {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      background: rgba(255, 255, 255, 0.95);
+      padding: 8px 16px;
+      border-radius: 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      font-size: 12px;
+      color: #666;
+      z-index: 998;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .visitor-stats .stat-item {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .visitor-stats .stat-item .icon {
+      font-size: 14px;
+    }
+
+    .visitor-stats .stat-item .value {
+      color: #4A90D9;
+      font-weight: 600;
+    }
+
     /* 移动端适配 */
     @media screen and (max-width: 768px) {
       .floating-actions {
         right: 15px;
-        bottom: 60px;
+        bottom: 70px;
         gap: 10px;
       }
 
@@ -153,6 +185,18 @@
 
       .action-btn::before {
         display: none; /* 移动端隐藏 tooltip */
+      }
+
+      .visitor-stats {
+        right: 15px;
+        bottom: 15px;
+        font-size: 11px;
+        padding: 6px 12px;
+        gap: 8px;
+      }
+
+      .visitor-stats .stat-item .icon {
+        font-size: 12px;
       }
     }
   </style>
@@ -177,6 +221,18 @@
          data-tooltip="☕ 赞赏支持"
          onclick="toggleQRCode('donate')">
       ☕
+    </div>
+  </div>
+
+  <!-- 访客统计 -->
+  <div class="visitor-stats">
+    <div class="stat-item">
+      <span class="icon">👁️</span>
+      <span>访问 <span class="value"><span id="busuanzi_value_page_pv">-</span></span></span>
+    </div>
+    <div class="stat-item">
+      <span class="icon">👥</span>
+      <span>访客 <span class="value"><span id="busuanzi_value_site_uv">-</span></span></span>
     </div>
   </div>
 
@@ -245,5 +301,8 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  
+  <!-- 不蒜子访客统计 -->
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>
