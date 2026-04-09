@@ -4,7 +4,7 @@
 >
 > 所以这页更适合你把握：**这些公司更看重哪类问题、表达方式和思考方式有什么区别**
 >
-> 返回 [面试区索引](../06_interview.md) | [高频题库总表](./01_high_frequency_question_bank.md) | [知识库索引](../../SYLLABUS.md)
+> 返回 [面试区索引](../06_interview.md) | [高频题库总表](01_high_frequency_question_bank.md) | [知识库索引](../../SYLLABUS.md)
 
 ---
 
