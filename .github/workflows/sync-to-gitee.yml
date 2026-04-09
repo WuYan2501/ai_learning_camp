@@ -1,0 +1,36 @@
+name: Sync to Gitee and Deploy Pages
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  sync-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. 检出代码
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      
+      # 2. 同步到 Gitee
+      - name: Sync to Gitee
+        uses: wearerequired/git-mirror-action@v1
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
+        with:
+          source-repo: git@github.com:WuYan2501/ai_learning_camp.git
+          destination-repo: git@gitee.com:bayue8/ai_learning_camp.git
+      
+      # 3. 触发 Gitee Pages 更新
+      - name: Build Gitee Pages
+        uses: yanglbme/gitee-pages-action@main
+        with:
+          gitee-username: bayue8
+          gitee-password: ${{ secrets.GITEE_PASSWORD }}
+          gitee-repo: bayue8/ai_learning_camp
+          branch: master

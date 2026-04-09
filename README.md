@@ -5,12 +5,13 @@
 **一份系统化的 AI 学习地图，从理论到实践、再到工程落地与 Harness 的完整路径**
 
 [![在线阅读](https://img.shields.io/badge/📖_在线阅读-GitHub_Pages-4A90D9?style=for-the-badge)](https://wuyan2501.github.io/ai_learning_camp/)
+[![Gitee镜像](https://img.shields.io/badge/🇨🇳_Gitee_镜像-国内访问-orange?style=for-the-badge)](https://bayue8.gitee.io/ai_learning_camp/)
 [![课程大纲](https://img.shields.io/badge/📋_课程大纲-查看详情-success?style=for-the-badge)](https://wuyan2501.github.io/ai_learning_camp/#/SYLLABUS)
 [![GitHub Stars](https://img.shields.io/github/stars/WuYan2501/ai_learning_camp?style=for-the-badge)](https://github.com/WuYan2501/ai_learning_camp/stargazers)
 
 ---
 
-### ✨ **[🚀 立即开始学习 →](https://wuyan2501.github.io/ai_learning_camp/)**
+### ✨ **[🚀 立即开始学习 →](https://wuyan2501.github.io/ai_learning_camp/)** | **[🇨🇳 国内镜像 →](https://bayue8.gitee.io/ai_learning_camp/)**
 
 </div>
 
