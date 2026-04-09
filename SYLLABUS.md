@@ -19,7 +19,7 @@
 - **想先建立 AI 整体框架**：从 [01_foundations.md](./modules/01_foundations.md) → [02_models.md](./modules/02_models.md) → [03_applications.md](./modules/03_applications.md) 开始
 - **想直接看热门方向**：先看 [02_rag.md](./modules/03_applications/02_rag.md)、[03_agent_core.md](./modules/03_applications/03_agent_core.md)、[08_mcp.md](./modules/03_applications/08_mcp.md)、[04_engineering.md](./modules/04_engineering.md)
 - **想补工程落地能力**：先看 [04_engineering.md](./modules/04_engineering.md) 和 [09_skills.md](./modules/09_skills.md)，重点关注 Harness Engineering、评测和调试方法论
-- **想准备面试 / 查漏补缺**：直接看 [06_interview.md](./modules/06_interview.md)
+- **想准备面试 / 查漏补缺**：直接看 [06_interview.md](./modules/06_interview.md)；如果想按公司 / 时间维度刷公开面经，再看 [02_tier1_companies.md](./modules/06_interview/02_tier1_companies.md) 和 [05_by_time.md](./modules/06_interview/05_by_time.md)
 
 ## 🎯 这份地图解决什么问题
 
@@ -34,6 +34,7 @@
 - **Agent 应用**：[04_agent_applications.md](./modules/03_applications/04_agent_applications.md)
 - **MCP**：[08_mcp.md](./modules/03_applications/08_mcp.md)
 - **Harness Engineering / 工程落地**：[04_engineering.md](./modules/04_engineering.md)
+- **公开面经分类整理**：[06_interview.md](./modules/06_interview.md)
 - **AI 实操技能 / Skills**：[09_skills.md](./modules/09_skills.md)
 - **高频面试**：[06_interview.md](./modules/06_interview.md)
 
@@ -73,7 +74,7 @@
 | ③ 应用层 | [03_applications.md](./modules/03_applications.md) | Prompt → RAG → **Agent(5个子模块)** → MCP → 多模态 | ~155（含9个子文件） |
 | ④ 工程层 | [04_engineering.md](./modules/04_engineering.md) | 量化 → 推理优化 → 框架选型 → 服务化 → 评估 → Harness Engineering | ~45 |
 | ⑤ 前沿层 | [05_frontier.md](./modules/05_frontier.md) | 推理模型 → Agent落地 → 新架构 → AI安全 | ~20 |
-| ⑥ 面试区 | [06_interview.md](./modules/06_interview.md) | Transformer/ML·DL/Tokenizer/训练/RAG/Agent/部署/评估安全/场景设计/前沿 | ~205 |
+| ⑥ 面试区 | [06_interview.md](./modules/06_interview.md) | 高频题库总表 + 一线大厂 / 二线垂类 / 外企 / 时间维度公开面经分类整理 | ~205（题库） + 分类页持续更新 |
 | ⑦ 工具链 | [07_tools.md](./modules/07_tools.md) | 开发框架 / 训练微调 / 推理部署 / 向量DB / 评估监控 | ~30 |
 | ⑧ 论文库 | [08_papers.md](./modules/08_papers.md) | 基础架构 / 训练 / 对齐 / 应用 / 新架构 关键论文 | ~25 |
 | ⑨ 实操技能 | [09_skills.md](./modules/09_skills.md) | 数据处理 → Prompt实战 → 模型选型 → RAG实战 → Agent开发 → Harness实战 → 微调 → 调试 → 项目方法论 | ~95 |

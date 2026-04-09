@@ -48,7 +48,7 @@
 | 🛠️ **应用实践** | RAG/Agent/MCP | [实战演练](./modules/03_applications.md) |
 | 🏗️ **工程落地** | 量化 / 推理优化 / 服务化 / Harness Engineering | [工程实践](./modules/04_engineering.md) |
 | 🧰 **实操技能** | Prompt / RAG / Agent / Harness / 调试排错 | [技能训练](./modules/09_skills.md) |
-| 💼 **面试准备** | 高频面试题库 | [面试突击](./modules/06_interview.md) |
+| 💼 **面试准备** | 高频题库 + 公开面经分类整理 | [面试突击](./modules/06_interview.md) |
 
 ### 🔥 热门专题
 
@@ -56,6 +56,7 @@
 - 🤖 [**Agent 智能体系统**](./modules/03_applications/03_agent_core.md) - 核心概念与设计模式
 - 🔌 [**MCP 协议详解**](./modules/03_applications/08_mcp.md) - 新一代 Agent 通信标准
 - 🧪 [**Harness Engineering**](./modules/04_engineering.md) - 回归评测、回放追踪与 Agent 工程基座
+- 🏢 [**公开面经分类整理**](./modules/06_interview.md) - 按一线大厂 / 二线垂类 / 外企 / 时间维度系统管理
 - 🧰 [**实操技能训练**](./modules/09_skills.md) - Prompt / RAG / Agent / Harness 全链路实战
 
 ### 📝 精选文章
@@ -146,6 +147,10 @@ ai_learning_camp/
 │   │   ├── 02_rag.md
 │   │   ├── 03_agent_core.md
 │   │   └── 08_mcp.md
+│   ├── 06_interview/
+│   │   ├── 01_high_frequency_question_bank.md
+│   │   ├── 02_tier1_companies.md
+│   │   └── ...
 │   └── ...
 ├── article/             # 📝 技术文章与案例
 └── image/              # 🖼️ 图片资源
