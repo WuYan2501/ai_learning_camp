@@ -11,7 +11,7 @@
 
 ---
 
-### ✨ **[🚀 立即开始学习 →](https://wuyan2501.github.io/ai_learning_camp/)** | **[🇨🇳 国内镜像 →](https://bayue8.gitee.io/ai_learning_camp/)**
+### ✨ **[🚀 立即开始学习 →](https://wuyan2501.github.io/ai_learning_camp/)** | **[🇨🇳 国内镜像 →](https://bayue8.gitee.io/ai_learning_camp/)** | **[🆕 最近更新 →](#recent-updates)**
 
 </div>
 
@@ -25,6 +25,20 @@
 - 🎯 **热门方向聚焦** - RAG、Agent、MCP、Harness Engineering、实操 Skills、多模态等前沿技术深度解析
 - 📝 **实战案例沉淀** - 技术拆解、教程实操、面试准备一应俱全
 - 🔄 **持续更新迭代** - 跟踪 AI 领域最新动态与技术演进
+
+---
+
+<a id="recent-updates"></a>
+
+## 🆕 最近更新
+
+> 想快速看新增内容，可以从这里直接跳转。
+
+- **公开面经分类整理升级**：按一线大厂 / 二线垂类 / 外企 / 时间维度系统整理，入口见 [面试区总览](./modules/06_interview.md)
+- **高频题库持续补强**：新增和整理了大模型训练、RAG、Agent、推理部署、评估安全等高频题，直达 [高频题库总表](./modules/06_interview/01_high_frequency_question_bank.md)
+- **时间维度面经索引**：方便按年份观察热点迁移和面试关注点变化，直达 [时间线追踪](./modules/06_interview/05_by_time.md)
+- **Agent / MCP / RAG 核心应用链路**：应用层已形成相对完整的主线，建议从 [应用实践总览](./modules/03_applications.md) 开始
+- **Harness 与实操技能补充**：工程落地与实战训练入口已打通，可直接看 [工程实践](./modules/04_engineering.md) 和 [技能训练](./modules/09_skills.md)
 
 ---
 
