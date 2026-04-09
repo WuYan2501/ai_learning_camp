@@ -1,5 +1,6 @@
-* **课程大纲**
-  * [📋 总大纲](SYLLABUS.md)
+* **首页**
+  * [🏠 项目介绍](README.md)
+  * [📋 课程大纲](SYLLABUS.md)
 
 * **学习模块**
   * [01 基础知识](modules/01_foundations.md)
