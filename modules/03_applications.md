@@ -2,7 +2,7 @@
 
 > 大模型落地的三板斧：Prompt + RAG + Agent，再加上 MCP 协议和多模态
 >
-> 返回 [知识库索引](../SYLLABUS.md)
+> 返回 [知识库索引](/SYLLABUS)
 
 ---
 

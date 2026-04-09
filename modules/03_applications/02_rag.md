@@ -2,7 +2,7 @@
 
 > 大模型的"外挂知识库"，解决幻觉和时效性问题的核心方案
 >
-> 返回 [应用层索引](../03_applications.md) | [知识库索引](../../SYLLABUS.md)
+> 返回 [应用层索引](/modules/03_applications) | [知识库索引](/SYLLABUS)
 
 ---
 

@@ -4,7 +4,7 @@
 >
 > **说明**：以下整理基于公开搜索可见的 `牛客 / CSDN / 公开文章` 标题与讨论，更适合用来判断“这家公司更看重什么”
 >
-> 返回 [面试区索引](../06_interview.md) | [高频题库总表](01_high_frequency_question_bank.md) | [知识库索引](../../SYLLABUS.md)
+> 返回 [面试区索引](/modules/06_interview) | [高频题库总表](01_high_frequency_question_bank.md) | [知识库索引](/SYLLABUS)
 
 ---
 

@@ -2,7 +2,7 @@
 
 > 面向通用基础、原理、训练、RAG、Agent、部署、评估、安全与场景设计
 >
-> 返回 [面试区索引](../06_interview.md) | [知识库索引](../../SYLLABUS.md)
+> 返回 [面试区索引](/modules/06_interview) | [知识库索引](/SYLLABUS)
 
 ---
 

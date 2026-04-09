@@ -4,7 +4,7 @@
 >
 > **说明**：以下线索主要来自公开搜索可见的 `牛客 / CSDN / 新浪 / 公开文章` 标题与讨论；这里强调的是**真实风格整理**，不伪造内部题，不承诺逐字还原原始提问
 >
-> 返回 [面试区索引](../06_interview.md) | [高频题库总表](01_high_frequency_question_bank.md) | [知识库索引](../../SYLLABUS.md)
+> 返回 [面试区索引](/modules/06_interview) | [高频题库总表](01_high_frequency_question_bank.md) | [知识库索引](/SYLLABUS)
 
 ---
 

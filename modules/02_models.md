@@ -2,7 +2,7 @@
 
 > Transformer 是一切的基础，这里是最核心的模块
 >
-> 返回 [知识库索引](../SYLLABUS.md)
+> 返回 [知识库索引](/SYLLABUS)
 
 ---
 

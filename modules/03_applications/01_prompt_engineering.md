@@ -2,7 +2,7 @@
 
 > Prompt 是与大模型交互的第一入口，也是最低成本的优化手段
 >
-> 返回 [应用层索引](../03_applications.md) | [知识库索引](../../SYLLABUS.md)
+> 返回 [应用层索引](/modules/03_applications) | [知识库索引](/SYLLABUS)
 
 ---
 

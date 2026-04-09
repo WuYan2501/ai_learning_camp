@@ -2,7 +2,7 @@
 
 > AI 的 USB-C 接口，标准化 AI 应用与工具/数据源的集成方式
 >
-> 返回 [应用层索引](../03_applications.md) | [知识库索引](../../SYLLABUS.md)
+> 返回 [应用层索引](/modules/03_applications) | [知识库索引](/SYLLABUS)
 
 ---
 

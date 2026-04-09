@@ -2,7 +2,7 @@
 
 > 视觉、音频、视频——LLM 的感知能力扩展
 >
-> 返回 [应用层索引](../03_applications.md) | [知识库索引](../../SYLLABUS.md)
+> 返回 [应用层索引](/modules/03_applications) | [知识库索引](/SYLLABUS)
 
 ---
 

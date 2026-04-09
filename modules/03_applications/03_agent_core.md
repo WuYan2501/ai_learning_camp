@@ -2,7 +2,7 @@
 
 > Agent 是 LLM 从"对话工具"到"自主执行者"的关键跃迁
 >
-> 返回 [应用层索引](../03_applications.md) | [知识库索引](../../SYLLABUS.md)
+> 返回 [应用层索引](/modules/03_applications) | [知识库索引](/SYLLABUS)
 >
 > **子模块导航**：[Agent 应用场景](04_agent_applications.md) | [Agent 面试专题](05_agent_interview.md) | [Agent 前沿](06_agent_frontier.md) | [Agent 学习大纲](07_agent_syllabus.md)
 

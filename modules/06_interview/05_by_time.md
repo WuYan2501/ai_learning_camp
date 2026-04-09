@@ -4,7 +4,7 @@
 >
 > 这页不是精确数据库，而是把公开面经里最常出现的话题，按时间维度整理成一个**备考优先级视图**
 >
-> 返回 [面试区索引](../06_interview.md) | [高频题库总表](01_high_frequency_question_bank.md) | [知识库索引](../../SYLLABUS.md)
+> 返回 [面试区索引](/modules/06_interview) | [高频题库总表](01_high_frequency_question_bank.md) | [知识库索引](/SYLLABUS)
 
 ---
 
