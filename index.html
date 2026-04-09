@@ -10,10 +10,218 @@
     :root {
       --theme-color: #4A90D9;
     }
+
+    /* 浮动操作按钮容器 */
+    .floating-actions {
+      position: fixed;
+      right: 20px;
+      bottom: 80px;
+      z-index: 999;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    /* 单个按钮样式 */
+    .action-btn {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: white;
+      font-size: 24px;
+      position: relative;
+    }
+
+    .action-btn:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    /* GitHub Star 按钮 */
+    .action-btn.star {
+      background: linear-gradient(135deg, #24292e 0%, #40464d 100%);
+    }
+
+    /* 公众号按钮 */
+    .action-btn.wechat {
+      background: linear-gradient(135deg, #07C160 0%, #00B050 100%);
+    }
+
+    /* 赞赏按钮 */
+    .action-btn.donate {
+      background: linear-gradient(135deg, #FF6B6B 0%, #FF5252 100%);
+    }
+
+    /* Tooltip 提示 */
+    .action-btn::before {
+      content: attr(data-tooltip);
+      position: absolute;
+      right: 70px;
+      background: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 14px;
+      white-space: nowrap;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+
+    .action-btn:hover::before {
+      opacity: 1;
+    }
+
+    /* 二维码弹窗 */
+    .qrcode-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 9999;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .qrcode-modal.active {
+      display: flex;
+    }
+
+    .qrcode-content {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      position: relative;
+      max-width: 90%;
+      max-height: 90%;
+    }
+
+    .qrcode-content h3 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .qrcode-content img {
+      max-width: 300px;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .qrcode-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: #f0f0f0;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+      line-height: 1;
+    }
+
+    .qrcode-close:hover {
+      background: #e0e0e0;
+    }
+
+    /* 移动端适配 */
+    @media screen and (max-width: 768px) {
+      .floating-actions {
+        right: 15px;
+        bottom: 60px;
+        gap: 10px;
+      }
+
+      .action-btn {
+        width: 48px;
+        height: 48px;
+        font-size: 20px;
+      }
+
+      .action-btn::before {
+        display: none; /* 移动端隐藏 tooltip */
+      }
+    }
   </style>
 </head>
 <body>
   <div id="app">加载中...</div>
+
+  <!-- 浮动操作按钮 -->
+  <div class="floating-actions">
+    <a href="https://github.com/WuYan2501/ai_learning_camp" 
+       target="_blank" 
+       class="action-btn star" 
+       data-tooltip="⭐ 给项目点 Star">
+      ⭐
+    </a>
+    <div class="action-btn wechat" 
+         data-tooltip="📱 关注公众号"
+         onclick="toggleQRCode('wechat')">
+      📱
+    </div>
+    <div class="action-btn donate" 
+         data-tooltip="☕ 赞赏支持"
+         onclick="toggleQRCode('donate')">
+      ☕
+    </div>
+  </div>
+
+  <!-- 公众号二维码弹窗 -->
+  <div id="wechat-modal" class="qrcode-modal" onclick="closeModal('wechat')">
+    <div class="qrcode-content" onclick="event.stopPropagation()">
+      <button class="qrcode-close" onclick="closeModal('wechat')">×</button>
+      <h3>📱 关注公众号</h3>
+      <p>藉秋风-gzh</p>
+      <img src="image/wechat_qr.png" alt="公众号二维码" onerror="this.src='https://via.placeholder.com/300x300?text=公众号二维码'">
+      <p style="color: #666; font-size: 14px; margin-top: 10px;">扫码关注，获取最新 AI 学习动态</p>
+    </div>
+  </div>
+
+  <!-- 赞赏二维码弹窗 -->
+  <div id="donate-modal" class="qrcode-modal" onclick="closeModal('donate')">
+    <div class="qrcode-content" onclick="event.stopPropagation()">
+      <button class="qrcode-close" onclick="closeModal('donate')">×</button>
+      <h3>☕ 赞赏支持</h3>
+      <img src="image/img_1.png" alt="赞赏二维码">
+      <p style="color: #666; font-size: 14px; margin-top: 10px;">创作不易，感谢支持 🙏</p>
+    </div>
+  </div>
+
+  <script>
+    function toggleQRCode(type) {
+      const modal = document.getElementById(type + '-modal');
+      modal.classList.toggle('active');
+    }
+
+    function closeModal(type) {
+      const modal = document.getElementById(type + '-modal');
+      modal.classList.remove('active');
+    }
+
+    // ESC 键关闭弹窗
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        document.querySelectorAll('.qrcode-modal').forEach(modal => {
+          modal.classList.remove('active');
+        });
+      }
+    });
+  </script>
+
   <script>
     window.$docsify = {
       name: '🤖 秋风的AI学习训练营',

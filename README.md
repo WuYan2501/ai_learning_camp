@@ -2,7 +2,7 @@
 
 # 🤖 秋风的AI学习训练营
 
-**一份系统化的 AI 学习地图，从理论到实践的完整路径**
+**一份系统化的 AI 学习地图，从理论到实践、再到工程落地与 Harness 的完整路径**
 
 [![在线阅读](https://img.shields.io/badge/📖_在线阅读-GitHub_Pages-4A90D9?style=for-the-badge)](https://wuyan2501.github.io/ai_learning_camp/)
 [![课程大纲](https://img.shields.io/badge/📋_课程大纲-查看详情-success?style=for-the-badge)](https://wuyan2501.github.io/ai_learning_camp/#/SYLLABUS)
@@ -21,7 +21,7 @@
 这不是简单的资料堆砌，而是一条**经过系统梳理的 AI 学习路径**：
 
 - 📚 **完整知识体系** - 覆盖基础认知、模型原理、应用实践、工程落地
-- 🎯 **热门方向聚焦** - RAG、Agent、MCP、多模态等前沿技术深度解析
+- 🎯 **热门方向聚焦** - RAG、Agent、MCP、Harness Engineering、实操 Skills、多模态等前沿技术深度解析
 - 📝 **实战案例沉淀** - 技术拆解、教程实操、面试准备一应俱全
 - 🔄 **持续更新迭代** - 跟踪 AI 领域最新动态与技术演进
 
@@ -46,7 +46,8 @@
 | 🧠 **基础知识** | AI/ML 基础概念 | [开始学习](./modules/01_foundations.md) |
 | 🤖 **模型原理** | LLM 核心技术 | [深入了解](./modules/02_models.md) |
 | 🛠️ **应用实践** | RAG/Agent/MCP | [实战演练](./modules/03_applications.md) |
-| 🏗️ **工程落地** | 生产环境部署 | [工程实践](./modules/04_engineering.md) |
+| 🏗️ **工程落地** | 量化 / 推理优化 / 服务化 / Harness Engineering | [工程实践](./modules/04_engineering.md) |
+| 🧰 **实操技能** | Prompt / RAG / Agent / Harness / 调试排错 | [技能训练](./modules/09_skills.md) |
 | 💼 **面试准备** | 高频面试题库 | [面试突击](./modules/06_interview.md) |
 
 ### 🔥 热门专题
@@ -54,7 +55,8 @@
 - 🔍 [**RAG 检索增强生成**](./modules/03_applications/02_rag.md) - 从原理到实践的完整指南
 - 🤖 [**Agent 智能体系统**](./modules/03_applications/03_agent_core.md) - 核心概念与设计模式
 - 🔌 [**MCP 协议详解**](./modules/03_applications/08_mcp.md) - 新一代 Agent 通信标准
-- 🧰 [**实操技能训练**](./modules/09_skills.md) - 动手能力培养
+- 🧪 [**Harness Engineering**](./modules/04_engineering.md) - 回归评测、回放追踪与 Agent 工程基座
+- 🧰 [**实操技能训练**](./modules/09_skills.md) - Prompt / RAG / Agent / Harness 全链路实战
 
 ### 📝 精选文章
 
@@ -62,6 +64,7 @@
 |------|------|
 | [Function Calling vs ReAct](./article/Function%20Calling%20和%20ReAct%20到底啥区别？.md) | Agent 设计模式对比 |
 | [Plan-and-Execute 实战](./article/一文弄懂%20Plan-and-Execute%20带实战案例.md) | 高级 Agent 架构 |
+| [Harness Engineering 入门实战](./article/一文搞懂%20Harness%20Engineering，入门就能跑起来.md) | 最小可用 Harness 搭建 |
 | [Agent 评估体系](./article/如何构建一套完整的Agent评估体系？.md) | 系统评估方法论 |
 | [Pre-Norm vs Post-Norm](./article/用点奶茶来讲清Pre-Norm%20训练更稳定，但%20Post-Norm%20理论上上限更高这个矛盾.md) | LLM 训练技巧 |
 

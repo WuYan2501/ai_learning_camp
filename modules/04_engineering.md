@@ -1,6 +1,6 @@
-# ④ 工程层：量化 / 推理优化 / 部署 / 评估
+# ④ 工程层：量化 / 推理优化 / 部署 / 评估 / Harness Engineering
 
-> 把模型从实验室搬到生产环境的全部知识
+> 把模型从实验室搬到生产环境的全部知识，并补上 LLM / Agent 应用在测试、回放、评测、沙箱执行上的工程基座
 >
 > 返回 [知识库索引](../SYLLABUS.md)
 
@@ -174,3 +174,76 @@
 > - 流式输出用 SSE 还是 WebSocket？各自的优劣势？⭐
 > - P99 延迟和平均延迟的区别？为什么 SLO 设计用 P99 而不是平均值？⭐
 > - 如何设计一个支持百万用户的 LLM 服务？从负载均衡到模型路由？⭐
+
+---
+
+## 4.6 Harness Engineering（测试基座工程） 🔥🔥🔥 📝
+
+### 什么是 Harness Engineering ⭐
+
+- *核心思想*：给 LLM / Agent 系统搭一层“可重复、可回放、可对比、可量化”的测试基座（Harness）
+- *它解决的问题*：Prompt 改了、模型换了、工具 Schema 变了、Agent 逻辑重构了，怎么快速知道效果是变好还是变坏
+- *为什么现在火*：单轮问答越来越少，Agent / Coding / Browser Use 都需要任务级评测，而不是只看一句回答对不对
+
+### Harness 的核心组成
+
+- **任务集（Task Set / Golden Set）**
+  - 收集真实高频 case + 历史失败 case + 边界 case，形成稳定回归集
+  - *核心问题*：Case 数量多少才够？（早期 20-50 个高价值 case 就能起步，后续逐步扩到 100+）
+
+- **执行环境（Execution Environment）** ⭐
+  - 代码 Agent：沙箱 + 文件系统 + 单元测试 + 依赖环境
+  - Browser Agent：浏览器状态、页面快照、用户操作轨迹
+  - 工具 Agent：MCP / Function Calling / API Mock / 权限隔离
+  - *核心问题*：为什么 Harness 一定要配沙箱？（没有隔离环境，结果不可复现，且存在安全风险）
+
+- **回放与追踪（Replay / Trace）** 🔥
+  - 保存 prompt、model version、tool calls、intermediate states、最终输出
+  - *为什么重要*：只看最终答案很难定位问题，必须能回放 Agent 的完整执行轨迹
+
+- **评测器（Evaluators）** 🔥 ⭐
+  - 规则评测：格式正确率 / JSON schema / 关键词命中 / 单元测试
+  - LLM-as-Judge：评估解释质量、完整性、偏好
+  - 任务级指标：任务完成率、成功路径长度、工具调用成功率、平均步数
+  - *核心问题*：LLM-as-Judge 能完全替代规则评测吗？（不能，最好规则 + LLM Judge + 人工抽检组合）
+
+- **对比实验（A/B / Regression）**
+  - Prompt A/B、Model A/B、Tool Version A/B、Orchestrator A/B
+  - *核心问题*：Harness 和传统 Benchmark 的区别？（Benchmark 更偏静态排名，Harness 更偏你自己业务场景的持续回归）
+
+### 典型落地场景
+
+- **Coding Agent**
+  - 看 patch 是否通过测试、任务是否完成、是否引入新错误
+  - 参考：SWE-bench / 自建代码仓回归集
+
+- **RAG / Knowledge QA**
+  - 同时看检索命中、答案忠实度、引用是否正确，而不是只看最终答案
+
+- **Browser / Computer Use Agent**
+  - 看任务完成率、操作步数、页面状态变化、是否走偏或死循环
+
+- **Tool-Calling Agent**
+  - 重点观察工具选择正确率、参数填写正确率、异常恢复能力
+
+### Harness Engineering 设计原则 ⭐
+
+- **可复现**：同一输入、同一环境、同一版本能重复得到可比较结果
+- **可归因**：能区分是 Prompt、模型、工具、检索还是编排逻辑出了问题
+- **可观测**：完整记录输入、输出、轨迹、耗时、成本和失败类型
+- **可隔离**：执行环境必须可控，敏感操作需要沙箱和权限边界
+- **可持续**：新 case 要能不断回流，形成真正的回归测试资产
+
+### 常见工具与评测基座方向
+
+- **评测与观测**：LangSmith、Langfuse、DeepEval、OpenAI Evals
+- **代码任务**：SWE-bench、单元测试基座、自建仓库任务集
+- **浏览器 / 环境型任务**：BrowserGym、OSWorld、WebArena
+- **RAG / 生成任务**：RAGAS、规则校验、LLM-as-Judge 组合评测
+
+> 💡 **面试拷问 — Harness Engineering**
+> - 什么是 Harness Engineering？它和传统自动化测试、Benchmark 的区别是什么？⭐
+> - 你会如何为一个 Agent 系统搭建最小可用 Harness？⭐
+> - 为什么 Agent 评测不能只看最终答案，还要看 trajectory / trace？⭐
+> - LLM-as-Judge、规则评测、人工抽检三者怎么组合？⭐
+> - 如果 Prompt 改版后线上指标波动，你如何用 Harness 快速定位问题？⭐
