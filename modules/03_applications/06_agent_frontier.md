@@ -2,7 +2,7 @@
 
 > 2025-2026 Agent 领域最新进展和趋势
 >
-> 返回 [应用层索引](../03_applications.md) | [Agent 核心架构](./03_agent_core.md) | [知识库索引](../../SYLLABUS.md)
+> 返回 [应用层索引](../03_applications.md) | [Agent 核心架构](03_agent_core.md) | [知识库索引](../../SYLLABUS.md)
 
 ---
 

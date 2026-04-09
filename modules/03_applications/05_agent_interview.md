@@ -2,7 +2,7 @@
 
 > Agent 是当前面试最热门的方向之一，几乎每轮面试都会考到
 >
-> 返回 [应用层索引](../03_applications.md) | [Agent 核心架构](./03_agent_core.md) | [知识库索引](../../SYLLABUS.md)
+> 返回 [应用层索引](../03_applications.md) | [Agent 核心架构](03_agent_core.md) | [知识库索引](../../SYLLABUS.md)
 
 ---
 

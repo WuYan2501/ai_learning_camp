@@ -2,7 +2,7 @@
 
 > Agent 正在渗透每个行业和场景，从编程到研究到自动化办公
 >
-> 返回 [应用层索引](../03_applications.md) | [Agent 核心架构](./03_agent_core.md) | [知识库索引](../../SYLLABUS.md)
+> 返回 [应用层索引](../03_applications.md) | [Agent 核心架构](03_agent_core.md) | [知识库索引](../../SYLLABUS.md)
 
 ---
 

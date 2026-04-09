@@ -4,7 +4,7 @@
 >
 > 返回 [应用层索引](../03_applications.md) | [知识库索引](../../SYLLABUS.md)
 >
-> **子模块导航**：[Agent 应用场景](./04_agent_applications.md) | [Agent 面试专题](./05_agent_interview.md) | [Agent 前沿](./06_agent_frontier.md) | [Agent 学习大纲](./07_agent_syllabus.md)
+> **子模块导航**：[Agent 应用场景](04_agent_applications.md) | [Agent 面试专题](05_agent_interview.md) | [Agent 前沿](06_agent_frontier.md) | [Agent 学习大纲](07_agent_syllabus.md)
 
 ---
 
@@ -102,7 +102,7 @@
 ### MCP 工具集成
 
 - *核心思想*：通过 MCP 协议将工具定义从应用代码中解耦，实现工具复用
-- *详见*：[MCP 协议](./08_mcp.md)
+- *详见*：[MCP 协议](08_mcp.md)
 
 ---
 

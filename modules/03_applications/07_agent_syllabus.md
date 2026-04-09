@@ -2,7 +2,7 @@
 
 > 系统学习 AI Agent 的路线图，从入门到实战到前沿
 >
-> 返回 [应用层索引](../03_applications.md) | [Agent 核心架构](./03_agent_core.md) | [知识库索引](../../SYLLABUS.md)
+> 返回 [应用层索引](../03_applications.md) | [Agent 核心架构](03_agent_core.md) | [知识库索引](../../SYLLABUS.md)
 
 ---
 
