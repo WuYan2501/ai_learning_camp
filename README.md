@@ -34,6 +34,7 @@
 
 > 想快速看新增内容，可以从这里直接跳转。
 
+- **模型层整体重构完成**：`02_models` 已升级为“总索引 + 6 个子模块”，按 `Tokenizer → Embedding → Transformer → 预训练 → 对齐微调 → 模型选型` 的链路重写，更直观也更适合顺着主线学习，入口见 [模型原理总览](./modules/02_models.md)
 - **公开面经分类整理升级**：按一线大厂 / 二线垂类 / 外企 / 时间维度系统整理，入口见 [面试区总览](./modules/06_interview.md)
 - **高频题库持续补强**：新增和整理了大模型训练、RAG、Agent、推理部署、评估安全等高频题，直达 [高频题库总表](./modules/06_interview/01_high_frequency_question_bank.md)
 - **时间维度面经索引**：方便按年份观察热点迁移和面试关注点变化，直达 [时间线追踪](./modules/06_interview/05_by_time.md)
@@ -158,6 +159,10 @@ ai_learning_camp/
 ├── modules/             # 📚 知识模块（按主题分类）
 │   ├── 01_foundations.md
 │   ├── 02_models.md
+│   ├── 02_models/
+│   │   ├── 01_transformer_core.md
+│   │   ├── 04_pretraining_and_scaling.md
+│   │   └── 05_alignment_and_finetuning.md
 │   ├── 03_applications/
 │   │   ├── 02_rag.md
 │   │   ├── 03_agent_core.md

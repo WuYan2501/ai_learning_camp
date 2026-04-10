@@ -60,7 +60,7 @@
     ▼          ▼          ▼         ▼       ▼          ▼          ▼          ▼          ▼
 ① 基础层   ② 模型层   ③ 应用层  ④ 工程层 ⑤ 前沿层  ⑥ 面试区  ⑦ 工具链  ⑧ 论文库  ⑨ 实操技能
 数学/ML/DL  架构/训练  三板斧    部署/优化 最新突破  高频考点  生态速查  核心论文  实战技能
-            大模型家族  Agent/MCP                                                    调试/选型
+            效率/对齐   Agent/MCP                                                    调试/选型
 ```
 
 ---
@@ -70,7 +70,7 @@
 | 模块 | 文件 | 核心内容 | 知识点数 |
 |------|------|----------|----------|
 | ① 基础层 | [01_foundations.md](./modules/01_foundations.md) | 数学 → ML → DL → 归一化 → 训练技巧 | ~30 |
-| ② 模型层 | [02_models.md](./modules/02_models.md) | Transformer → 注意力变体 → 大模型家族 → Tokenizer → 预训练 → 对齐微调 | ~60 |
+| ② 模型层 | [02_models.md](./modules/02_models.md) | Transformer → 效率优化 → Tokenizer/Embedding → 预训练 → 对齐微调 → 模型选型 | ~60（含6个子文件） |
 | ③ 应用层 | [03_applications.md](./modules/03_applications.md) | Prompt → RAG → **Agent(5个子模块)** → MCP → 多模态 | ~155（含9个子文件） |
 | ④ 工程层 | [04_engineering.md](./modules/04_engineering.md) | 量化 → 推理优化 → 框架选型 → 服务化 → 评估 → Harness Engineering | ~45 |
 | ⑤ 前沿层 | [05_frontier.md](./modules/05_frontier.md) | 推理模型 → Agent落地 → 新架构 → AI安全 | ~20 |
@@ -87,7 +87,7 @@
 `线性代数` `概率统计` `信息论` `最优化` → `监督/无监督` `损失函数` `优化器` → `CNN/RNN/Transformer` `归一化` `训练技巧`
 
 ### ② 模型层
-`Self-Attention` `MHA→MQA→GQA→MLA` `RoPE` `Flash Attention` `MoE` → `Tokenizer` `Embedding` `预训练` → `SFT` `RLHF` `DPO` `GRPO`
+`Self-Attention` `GQA` `RoPE` `Flash Attention` `MoE` → `Tokenizer` `Embedding` `CLM` `Scaling` → `SFT` `LoRA` `DPO` `GRPO`
 
 ### ③ 应用层
 `CoT/ToT/ReAct` `DSPy` → `RAG Pipeline` `Chunking` `Reranking` `GraphRAG` → `Agent架构` `规划范式` `记忆系统` `Function Calling` `多Agent` `Agent应用(Coding/Research/客服)` `Agent面试40题` `Agent前沿` **`Agent Skills(Voyager/Skill Library/Skill Discovery)`** `Agent学习大纲` → `MCP协议` `A2A` → `VLM` `Diffusion`

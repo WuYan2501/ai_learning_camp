@@ -5,6 +5,12 @@
 * **学习模块**
   * [01 基础知识](modules/01_foundations.md)
   * [02 模型原理](modules/02_models.md)
+    * [Transformer 基础](modules/02_models/01_transformer_core.md)
+    * [Transformer 演进与效率](modules/02_models/02_transformer_efficiency.md)
+    * [Tokenizer 与 Embedding](modules/02_models/03_tokenizer_and_embedding.md)
+    * [预训练与 Scaling](modules/02_models/04_pretraining_and_scaling.md)
+    * [对齐与微调](modules/02_models/05_alignment_and_finetuning.md)
+    * [大模型家族与选型](modules/02_models/06_model_families.md)
   * [03 应用实践](modules/03_applications.md)
     * [Prompt Engineering](modules/03_applications/01_prompt_engineering.md)
     * [RAG](modules/03_applications/02_rag.md)
