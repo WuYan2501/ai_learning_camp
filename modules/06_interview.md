@@ -12,11 +12,11 @@
 
 | # | 模块 | 文件 | 核心内容 | 适合谁 |
 |---|------|------|----------|--------|
-| 6.1 | 高频题库总表 | [01_high_frequency_question_bank.md](./06_interview/01_high_frequency_question_bank.md) | 205 道通用高频题：原理 / 训练 / RAG / Agent / 部署 / 评估 / 场景设计 | 全部 |
-| 6.2 | 一线大厂公开面经整理 | [02_tier1_companies.md](./06_interview/02_tier1_companies.md) | 字节 / 阿里 / 腾讯 / 百度 / 华为 / 美团等公开面经线索与代表题 | 算法 / 应用 / 平台 |
-| 6.3 | 二线厂 / 垂类厂公开面经整理 | [03_tier2_vertical_companies.md](./06_interview/03_tier2_vertical_companies.md) | 小红书 / 快手 / 京东 / 滴滴 / 携程等公开面经线索与场景题 | 应用落地 / AI 产品 |
-| 6.4 | 外企 / 海外厂公开面经整理 | [04_foreign_companies.md](./06_interview/04_foreign_companies.md) | Microsoft / Google / Amazon / Meta 等公开题单与风格总结 | 英文面试 / 国际厂 |
-| 6.5 | 时间线追踪 | [05_by_time.md](./06_interview/05_by_time.md) | 按年份观察热点迁移：RAG → Agent → MCP / Harness / 推理模型 | 查热点 / 追趋势 |
+| 6.1 | 高频题库总表 | [01_high_frequency_question_bank.md](/modules/06_interview/01_high_frequency_question_bank.md) | 205 道通用高频题：原理 / 训练 / RAG / Agent / 部署 / 评估 / 场景设计 | 全部 |
+| 6.2 | 一线大厂公开面经整理 | [02_tier1_companies.md](/modules/06_interview/02_tier1_companies.md) | 字节 / 阿里 / 腾讯 / 百度 / 华为 / 美团等公开面经线索与代表题 | 算法 / 应用 / 平台 |
+| 6.3 | 二线厂 / 垂类厂公开面经整理 | [03_tier2_vertical_companies.md](/modules/06_interview/03_tier2_vertical_companies.md) | 小红书 / 快手 / 京东 / 滴滴 / 携程等公开面经线索与场景题 | 应用落地 / AI 产品 |
+| 6.4 | 外企 / 海外厂公开面经整理 | [04_foreign_companies.md](/modules/06_interview/04_foreign_companies.md) | Microsoft / Google / Amazon / Meta 等公开题单与风格总结 | 英文面试 / 国际厂 |
+| 6.5 | 时间线追踪 | [05_by_time.md](/modules/06_interview/05_by_time.md) | 按年份观察热点迁移：RAG → Agent → MCP / Harness / 推理模型 | 查热点 / 追趋势 |
 
 ---
 

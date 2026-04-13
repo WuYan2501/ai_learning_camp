@@ -12,15 +12,15 @@
 
 | # | 模块 | 文件 | 核心内容 | 知识点数 |
 |---|------|------|----------|----------|
-| 3.1 | Prompt Engineering | [01_prompt_engineering.md](./03_applications/01_prompt_engineering.md) | 基础技巧 → 高级推理 → 自动化 Prompt → 安全 | ~15 |
-| 3.2 | RAG | [02_rag.md](./03_applications/02_rag.md) | Pipeline → Chunking → Embedding → 高级RAG → 评估 | ~25 |
-| 3.3 | **Agent 核心架构** 🔥🔥🔥 | [03_agent_core.md](./03_applications/03_agent_core.md) | 规划范式 → 工具调用 → 记忆系统 → 多Agent → 可靠性 | ~40 |
-| 3.4 | **Agent 应用场景** 🔥🔥🔥 | [04_agent_applications.md](./03_applications/04_agent_applications.md) | Coding Agent → Computer Use → Deep Research → 客服 → 数据分析 | ~30 |
-| 3.5 | **Agent 面试专题** 🔥🔥🔥 | [05_agent_interview.md](./03_applications/05_agent_interview.md) | 40道Agent面试题：原理/工具/记忆/工程/多Agent/架构/前沿 | 40题 |
-| 3.6 | **Agent 前沿动态** 🔥🔥🔥 | [06_agent_frontier.md](./03_applications/06_agent_frontier.md) | MCP生态 → A2A → Coding Agent革命 → 评估体系 → 安全 | ~20 |
-| 3.7 | **Agent 学习大纲** 🔥🔥🔥 | [07_agent_syllabus.md](./03_applications/07_agent_syllabus.md) | 6阶段学习路线 → 推荐资源 → 论文 → 课程 → 开源项目 | 路线图 |
-| 3.8 | MCP 协议 | [08_mcp.md](./03_applications/08_mcp.md) | 协议架构 → 核心概念 → vs FC → A2A | ~10 |
-| 3.9 | 多模态 | [09_multimodal.md](./03_applications/09_multimodal.md) | VLM → 图像生成 → 视频生成 → 音频 | ~15 |
+| 3.1 | Prompt Engineering | [01_prompt_engineering.md](/modules/03_applications/01_prompt_engineering.md) | 基础技巧 → 高级推理 → 自动化 Prompt → 安全 | ~15 |
+| 3.2 | RAG | [02_rag.md](/modules/03_applications/02_rag.md) | Pipeline → Chunking → Embedding → 高级RAG → 评估 | ~25 |
+| 3.3 | **Agent 核心架构** 🔥🔥🔥 | [03_agent_core.md](/modules/03_applications/03_agent_core.md) | 规划范式 → 工具调用 → 记忆系统 → 多Agent → 可靠性 | ~40 |
+| 3.4 | **Agent 应用场景** 🔥🔥🔥 | [04_agent_applications.md](/modules/03_applications/04_agent_applications.md) | Coding Agent → Computer Use → Deep Research → 客服 → 数据分析 | ~30 |
+| 3.5 | **Agent 面试专题** 🔥🔥🔥 | [05_agent_interview.md](/modules/03_applications/05_agent_interview.md) | 40道Agent面试题：原理/工具/记忆/工程/多Agent/架构/前沿 | 40题 |
+| 3.6 | **Agent 前沿动态** 🔥🔥🔥 | [06_agent_frontier.md](/modules/03_applications/06_agent_frontier.md) | MCP生态 → A2A → Coding Agent革命 → 评估体系 → 安全 | ~20 |
+| 3.7 | **Agent 学习大纲** 🔥🔥🔥 | [07_agent_syllabus.md](/modules/03_applications/07_agent_syllabus.md) | 6阶段学习路线 → 推荐资源 → 论文 → 课程 → 开源项目 | 路线图 |
+| 3.8 | MCP 协议 | [08_mcp.md](/modules/03_applications/08_mcp.md) | 协议架构 → 核心概念 → vs FC → A2A | ~10 |
+| 3.9 | 多模态 | [09_multimodal.md](/modules/03_applications/09_multimodal.md) | VLM → 图像生成 → 视频生成 → 音频 | ~15 |
 
 ---
 

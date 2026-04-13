@@ -28,12 +28,12 @@
 
 | # | 模块 | 文件 | 核心内容 | 重要度 |
 |---|------|------|----------|--------|
-| 2.1 | **Transformer 基础** 🔥🔥🔥 | [01_transformer_core.md](./02_models/01_transformer_core.md) | Attention → FFN → 残差归一化 → RoPE → 架构分型 | 必学 |
-| 2.2 | **Transformer 演进与效率** 🔥🔥 | [02_transformer_efficiency.md](./02_models/02_transformer_efficiency.md) | KV Cache → GQA → Flash Attention → MoE → 长上下文 | 必学 |
-| 2.3 | Tokenizer 与 Embedding 🔥 | [03_tokenizer_and_embedding.md](./02_models/03_tokenizer_and_embedding.md) | 文本切分 → 向量表示 → 检索与语义表示 | 重要 |
-| 2.4 | **预训练与 Scaling** 🔥🔥🔥 | [04_pretraining_and_scaling.md](./02_models/04_pretraining_and_scaling.md) | CLM → 数据 → Scaling Law → 分布式训练 | 必学 |
-| 2.5 | **对齐与微调** 🔥🔥🔥 | [05_alignment_and_finetuning.md](./02_models/05_alignment_and_finetuning.md) | SFT → LoRA → RLHF → DPO → GRPO | 必学 |
-| 2.6 | 大模型家族与选型视角 🔥 | [06_model_families.md](./02_models/06_model_families.md) | 开闭源路线 → 架构风格 → 选型思路 | 重要 |
+| 2.1 | **Transformer 基础** 🔥🔥🔥 | [01_transformer_core.md](/modules/02_models/01_transformer_core.md) | Attention → FFN → 残差归一化 → RoPE → 架构分型 | 必学 |
+| 2.2 | **Transformer 演进与效率** 🔥🔥 | [02_transformer_efficiency.md](/modules/02_models/02_transformer_efficiency.md) | KV Cache → GQA → Flash Attention → MoE → 长上下文 | 必学 |
+| 2.3 | Tokenizer 与 Embedding 🔥 | [03_tokenizer_and_embedding.md](/modules/02_models/03_tokenizer_and_embedding.md) | 文本切分 → 向量表示 → 检索与语义表示 | 重要 |
+| 2.4 | **预训练与 Scaling** 🔥🔥🔥 | [04_pretraining_and_scaling.md](/modules/02_models/04_pretraining_and_scaling.md) | CLM → 数据 → Scaling Law → 分布式训练 | 必学 |
+| 2.5 | **对齐与微调** 🔥🔥🔥 | [05_alignment_and_finetuning.md](/modules/02_models/05_alignment_and_finetuning.md) | SFT → LoRA → RLHF → DPO → GRPO | 必学 |
+| 2.6 | 大模型家族与选型视角 🔥 | [06_model_families.md](/modules/02_models/06_model_families.md) | 开闭源路线 → 架构风格 → 选型思路 | 重要 |
 
 ---
 
